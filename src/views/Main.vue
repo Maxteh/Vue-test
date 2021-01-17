@@ -1,6 +1,5 @@
 <template>
-
-<div>
+  <div>
   <div class="page-title">
     <h3>Счет</h3>
 
@@ -50,13 +49,4 @@
     </div>
   </div>
 </div>
-
 </template>
-
-<script>
-
-export default {
-
-
-}
-</script>

@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import 'materialize-css/dist/js/materialize.min'
 import App from './App.vue'
+import dateFilter from '@/filters/date.filter'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+
+Vue.filter('date', dateFilter)
 
 new Vue({
   router,

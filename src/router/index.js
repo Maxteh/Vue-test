@@ -18,6 +18,12 @@ const routes = [
     component: () => import('../views/Login.vue'),
   },
   {
+    path: '/register',
+    name: 'Register',
+    meta: {layout: 'empty'},
+    component: () => import('../views/Register.vue'),
+  },
+  {
     path: '/main',
     name: 'Categories',
     meta: {layout: 'main'},
